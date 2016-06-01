@@ -1,0 +1,66 @@
+{\rtf1\ansi\ansicpg936\cocoartf1404\cocoasubrtf340
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset134 PingFangSC-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green116\blue0;\red100\green56\blue32;\red196\green26\blue22;
+\red0\green0\blue0;\red92\green38\blue153;\red28\green0\blue207;\red46\green13\blue110;\red63\green110\blue116;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww18880\viewh8400\viewkind0
+\deftab1155
+\pard\tx1155\pardeftab1155\pardirnatural\partightenfactor0
+
+\f0\fs48 \cf2 \CocoaLigature0 //
+\f1 \'ca\'fd\'be\'dd\'bd\'d3\'bf\'da
+\f0 \cf0 \
+\cf2 //
+\f1 \'ca\'d7\'d2\'b3
+\f0 \cf0 \
+\cf3 #define HOMEURL @\cf4 "http://open4.bantangapp.com/recommend/index?client_id=bt_app_android&client_secret=ffcda7a1c4ff338e05c42e7972ba7b8d&page=1&pagesize=20"\cf3 \
+\cf2 //
+\f1 \'ca\'d7\'d2\'b3\'cf\'ea\'c7\'e9
+\f0 \cf0 \
+\cf3 #define HOMEDETAIL @\cf4 "http://open4.bantangapp.com/topic/info?client_id=bt_app_android&client_secret=ffcda7a1c4ff338e05c42e7972ba7b8d&id=%zd"\cf3 \
+\cf2 //
+\f1 \'d4\'c4\'b6\'c1
+\f0 \cf0 \
+\cf2 //
+\f1 \'c3\'c0\'ce\'c4
+\f0 \cf0 \
+\cf3 #define ARTICALURL @\cf4 "http://d.yixincao.com/interface/getdata.php?act=list&type=nuanwen&page=%d"\cf3 \
+\cf2 //
+\f1 \'c3\'c0\'ce\'c4\'cf\'ea\'c7\'e9
+\f0 \cf0 \
+\cf3 #define ARTICALDETAILURL @\cf4 "http://d.yixincao.com/detailshow.php?id=%@&from=ios"\cf3 \
+\cf2 //
+\f1 \'d3\'ef\'c2\'bc
+\f0 \cf0 \
+\cf3 #define UTTERANCEURL @\cf4 "http://api.10x.cn/d0c0ebbacc664252b1349e4d9562f6eb/367/tab1/%zd.txt"\cf3 \
+\cf0 \
+\cf2 //
+\f1 \'c3\'c0\'ca\'b3
+\f0 \cf0 \
+\cf3 #define FOODURL @\cf4 "http://api.izhangchu.com:/"\
+
+\f1 \cf5 \'b2\'ce\'ca\'fd\'c6\'b4\'bd\'d3\'a3\'ba\
+	
+\f0 \cf6 NSDictionary\cf0  * dic = \cf7 @\{\cf4 @"methodName"\cf0 : \cf4 @"HomeSerial"\cf0 , \cf4 @"page"\cf0 : [\cf6 NSString\cf0  \cf8 stringWithFormat\cf0 :\cf4 @"%d"\cf0 ,\cf9 _page\cf0 ], \cf4 @"serial_id"\cf0 : \cf9 _dataID\cf0 , \cf4 @"size"\cf0 : \cf4 @"20"\cf7 \}\cf0 ;\cf3 \
+\cf0 \
+\cf2 //
+\f1 \'d2\'f4\'c0\'d6
+\f0 \cf0 \
+\cf3 #define liuxing @\cf4 "http://theinfoapps.com/myfm/category/1003841/?appid=com.infoapps.myfm&appname=JapanFM&v=2.5.1&lang=zh-Hans&jb=0&deviceid=74496205-8F51-4552-9DCA-4130F80C2112&phonetype=iphone&model=iphone5,2&osn=iPhone%2520OS&osv=8.1.3&carrier=%25E4%25B8%25AD%25E5%259B%25BD%25E7%25A7%25BB%25E5%258A%25A8&device_type=iPhone%206&r=541105&e=6RVcc6soACRbdXxqjkatPg"\cf3 \
+#define xinge @\cf4 "http://theinfoapps.com/myfm/category/61/?appid=com.infoapps.myfm&appname=JapanFM&v=2.5.1&lang=zh-Hans&jb=0&deviceid=74496205-8F51-4552-9DCA-4130F80C2112&phonetype=iphone&model=iphone5,2&osn=iPhone%2520OS&osv=8.1.3&carrier=%25E4%25B8%25AD%25E5%259B%25BD%25E7%25A7%25BB%25E5%258A%25A8&device_type=iPhone%206&r=330044&e=ps_YSM9m_r-HkZIGujuUFg"\cf3 \
+\cf0 \
+\cf3 #define huayu @\cf4 "http://theinfoapps.com/myfm/category/10001/?appid=com.infoapps.myfm&appname=JapanFM&v=2.5.1&lang=zh-Hans&jb=0&deviceid=74496205-8F51-4552-9DCA-4130F80C2112&phonetype=iphone&model=iphone5,2&osn=iPhone%2520OS&osv=8.1.3&carrier=%25E4%25B8%25AD%25E5%259B%25BD%25E7%25A7%25BB%25E5%258A%25A8&device_type=iPhone%206&r=035453&e=f9kps3LBJyEC7GQT63x6dg"\cf3 \
+\cf0 \
+\cf3 #define yingyu @\cf4 "http://theinfoapps.com/myfm/category/10004/?appid=com.infoapps.myfm&appname=JapanFM&v=2.5.1&lang=zh-Hans&jb=0&deviceid=74496205-8F51-4552-9DCA-4130F80C2112&phonetype=iphone&model=iphone5,2&osn=iPhone%2520OS&osv=8.1.3&carrier=%25E4%25B8%25AD%25E5%259B%25BD%25E7%25A7%25BB%25E5%258A%25A8&device_type=iPhone%206&r=143121&e=XGP8qT2gcYL9smqtVBG1hA"\cf3 \
+\cf0 \
+\cf3 #define riyu @\cf4 "http://theinfoapps.com/myfm/category/10006/?appid=com.infoapps.myfm&appname=JapanFM&v=2.5.1&lang=zh-Hans&jb=0&deviceid=74496205-8F51-4552-9DCA-4130F80C2112&phonetype=iphone&model=iphone5,2&osn=iPhone%2520OS&osv=8.1.3&carrier=%25E4%25B8%25AD%25E5%259B%25BD%25E7%25A7%25BB%25E5%258A%25A8&device_type=iPhone%206&r=401453&e=BxF7Xk4PgsnwbiDkcwye2A"\cf3 \
+\cf0 \
+\cf3 #define qingyinyue @\cf4 "http://theinfoapps.com/myfm/category/9/?appid=com.infoapps.myfm&appname=JapanFM&v=2.5.1&lang=zh-Hans&jb=0&deviceid=74496205-8F51-4552-9DCA-4130F80C2112&phonetype=iphone&model=iphone5,2&osn=iPhone%2520OS&osv=8.1.3&carrier=%25E4%25B8%25AD%25E5%259B%25BD%25E7%25A7%25BB%25E5%258A%25A8&device_type=iPhone%206&r=001512&e=0vCiDwfc1wJcu9u-BKoEKA"\cf3 \
+\cf0 \
+\cf3 #define minyao @\cf4 "http://theinfoapps.com/myfm/category/8/?appid=com.infoapps.myfm&appname=JapanFM&v=2.5.1&lang=zh-Hans&jb=0&deviceid=74496205-8F51-4552-9DCA-4130F80C2112&phonetype=iphone&model=iphone5,2&osn=iPhone%2520OS&osv=8.1.3&carrier=%25E4%25B8%25AD%25E5%259B%25BD%25E7%25A7%25BB%25E5%258A%25A8&device_type=iPhone%206&r=350515&e=W3uIfTpXmGckEbvYwBP_rA"\cf3 \
+\cf0 \
+\cf3 #define hanyu @\cf4 "http://theinfoapps.com/myfm/category/1002500/?appid=com.infoapps.myfm&appname=JapanFM&v=2.5.1&lang=zh-Hans&jb=0&deviceid=74496205-8F51-4552-9DCA-4130F80C2112&phonetype=iphone&model=iphone5,2&osn=iPhone%2520OS&osv=8.1.3&carrier=%25E4%25B8%25AD%25E5%259B%25BD%25E7%25A7%25BB%25E5%258A%25A8&device_type=iPhone%206&r=524525&e=x-OCW3kqtDe2UEUnxVqCtg"\cf3 \
+\cf0 \
+\cf3 #define paihangbang @\cf4 "http://theinfoapps.com/myfm/rank/v2/?appid=com.infoapps.japanfm&appname=JapanFM&v=2.5.1&lang=zh-Hans&jb=0&deviceid=74496205-8F51-4552-9DCA-4130F80C2112&phonetype=iphone&model=iphone5,2&osn=iPhone%252520OS&osv=8.1.3&carrier=%2525E4%2525B8%2525AD%2525E5%25259B%2525BD%2525E7%2525A7%2525BB%2525E5%25258A%2525A8&device_type=iPhone%25206&r=150355&e=qxCeQmVva4FDQcUMsjEy7g&appid=com.infoapps.japanfm&appname=JapanFM&v=2.5.1&lang=zh-Hans&jb=0&deviceid=74496205-8F51-4552-9DCA-4130F80C2112&phonetype=iphone&model=iphone5,2&osn=iPhone%2520OS&osv=8.1.3&carrier=%25E4%25B8%25AD%25E5%259B%25BD%25E7%25A7%25BB%25E5%258A%25A8&device_type=iPhone%206"\cf3 \
+\cf0 \
+}
